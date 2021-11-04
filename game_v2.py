@@ -30,7 +30,7 @@ def random_predict(number: int = 1) -> int:
             right_border = predict_number
             predict_number = round((left_border + right_border)/2)
         
-        else: break #конец цикла в случае угадывания числа
+        else: break #завершаем цикл, когда число угадано
         
     return count
 
